@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/maharaja"
+                    android:layout_gravity="top" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:id="@+id/textView"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maharaja College is a college in Jaipur in Rajasthan state in India.It is affiliated with University of Rajasthan since 1947.It was established in 1844 as Maharaja School by Maharaja of Jaipur, Sawai Ram Singh II along with Pandit Shiv Deen, who also became its first principal. Originally affiliated with University of Calcutta, then University of Allahabad in 1890, the college went on to become one of six constituent colleges of University of Rajasthan, established in 1947.It is one of the oldest colleges of North India and was designed by British architects.Education was mainly imparted in Hindi,Persian,English,Sanskrit and Urdu to 40 students.In addition to imparting education in all science subjects,the college also offers self-financed BCA course.The college was granted status of 'College with Potential for Excellence' by the UGC in 2011.More than 2500 students are currently enrolled in this college."
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:id="@+id/textView3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Maharaja College,Ram Singh Road,Jaipur(Raj.)\nPin:302001"
+                    android:id="@+id/textView4"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph: 0141-2567290,2565096"
+                    android:id="@+id/textView5"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: info@universitymaharajacollege.ac.in"
+                    android:id="@+id/textView6"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:onClick="btn_email"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Website"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4440b9"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

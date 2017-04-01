@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Special Contacts"
+        android:id="@+id/textView_sc"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_sc"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Rajasthan University</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="vision_statement_english">The whole world is sustainable only by virtue of Satya,
+        Ahimsa,Tyag, Pragna,Karuna and Maitri</string>
+    <string name="m1">->Promotion of excellence in education and research by incubating independent critical thought
+    and scientific temper.\n</string>
+    <string name="m2">->Promotion of interdisciplinary research on convergence of science and technology.\n</string>
+    <string name="m3">->Pursuit of high quality research pertaining to economy,social development,languages,arts,culture,energy and
+    environment.\n</string>
+    <string name="m4">->Establishment and expansion of academic links and research collaborations with national and
+    international institutions.\n</string>
+    <string name="m5">->Creation and strengthning of infrastructure for global competence.\n</string>
+    <string name="m6">->Critical analysis of existing social hierarchies and counstuction of new models of sustainable
+    dovelopment,equity and gender issues.\n</string>
+    <string name="m7">->Preparing Students for careers in Sciences,Social Sciences,Humanities,Commerce,Management,Fine Arts and
+    Sports ,Engineering Technology.\n</string>
+    <string name="abt_ru">On the 8th of January 1947, the University of Rajputana appeared like a little star on the educational horizon of pre-independent India. That little star, now called the University of Rajasthan is shining "like a diamond in the sky." Having acquired the status of University with Potential for Excellence, today, the University celebrates its 68th Foundation Day. Over the years the University has redefined itself keeping in mind the changing trends of the educational system.\n\n
+
+The University office was temporarily set up in the Kesargarh Fort. The then Maharaja of Jaipur State, Sawai Man Singh graciously made available to the university an extensive site of over 300 acres. About two miles from the centre of the city, the site was considered ideal for a University campus. With the Moti Doongari castle overlooking the campus on the northern side, and the Jhalana hills stretching from end to end in the east, the site possessed that wild grandeur that characterised most landmarks of Rajasthan.
+
+The University Motto, "Dharmo Vishwasya Jagatah Pratishtha" suggested by the Vice-Chancellor, Dr. G. S. Mahajani was accepted by the Executive Council at its meeting held on 28- January, 1948. "This enshrines the greatest contribution India has made to world thought: and it is our earnest hope that Universities in India will assist in the rediscovery of spiritual values which the world needs at the present time.\n\n"
+
+The University owes much to the foresight, ability and sincerity of the first three Vice-Chancellors of the University viz. Dr. G.S. Mahajani, Dr. G.C. Chatterji and Dr. Mohan Sinha Mehta, who played a crucial role in the development of the University, its campus, recruitment of faculty and in laying down sound traditions.
+
+</string>
+    <string-array name="usefull_links">
+        <item>URATPG-2016</item>
+        <item>Pre. B.PEd. Entrance Exam 2016</item>
+        <item>CCT Admission 2016</item>
+        <item>RULET-2016</item>
+        <item>USIEF-Full Bright fellowship</item>
+        <item>Online Examination Form-2015-16</item>
+        <item>UG Admission 2016</item>
+        <item>Pre. M.PEd. Entrance Exam 2016</item>
+        <item>Univ. Law Entrance Test (ULET)- 2016</item>
+        <item>Pre.M.Ed. Entrance Test (PMET)-2016</item>
+        <item>Pre B.Ed.-M.Ed. Entrance Test-2016</item>
+    </string-array>
+    <string name="title_activity_ru__map">Map</string>
+    <string name="title_activity_ru_map1">Map1</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_ru_map">Map</string>
+</resources>

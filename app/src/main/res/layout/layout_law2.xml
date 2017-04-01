@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/vidhibhawan"
+                    android:layout_gravity="top" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:id="@+id/textView"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History of the College The University Law College Centre-II, formerly known as Evening Law College, Jaipur, was established in the academic session 1991-92 as a self-financing institution. The college is situated at Vidhi Bhawan in the University Campus, Jaipur. Since 1993-94 the College has been declared by the U.G.C. a constituent college of the University. Accordingly this college is now one of the six constituent colleges of the University.The University Law College, running in the morning session, was established in the pink city of Jaipur by the Government of erstwhile State of Jaipur in the year 1947. With effect from the year 2004, the University Evening Law College was renamed as University Law College Centre-II and it is second independent unit for the LL.B.The College is imparting legal education to educate and train students at LL.B. level to achieve outstanding ability and become leaders in legal profession.
+
+The College is also making efforts to build up overall personality of the students by associating them in different academic activities like- Moot Court Competition, Debates, and arranging extension lectures by legal luminaries of outstanding caliber from time to time."
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:id="@+id/textView3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Law College Centre-II\n(Vidhi Bhawan)University of Rajasthan,Jaipur\nPin:302004"
+                    android:id="@+id/textView4"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph: +91(141)2704882"
+                    android:id="@+id/textView5"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Website"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4440b9"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

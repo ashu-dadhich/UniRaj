@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uniraj.developer.uniraj">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/header"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MaharajaCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MaharaniCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RajCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommerceCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_college_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowWebView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FAQs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News_events"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LawCollege"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LawCollege2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UniversityLaw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PoddarCollege"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name="services.ScheduleService" />
+        <service android:name="services.NotifyService" />
+
+
+    </application>
+
+</manifest>

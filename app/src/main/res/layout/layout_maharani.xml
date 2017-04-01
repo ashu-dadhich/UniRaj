@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/maharani1"
+                    android:layout_gravity="top" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:id="@+id/textView"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maharani College is the premier girls college of Rajasthan state in India and is situated in Jaipur.It was established in 1944 and is one of six constituent colleges of University of Rajasthan .It was established on the name of maharani gayatri devi.Presently it is top girls college in jaipur.It is with this motto that Maharani College embarked on its journey of providing opportunities for higher education to girls.The University Maharani College stands apart as an epitome of foresightedness of its founders,hard work of its staff and has paved the way for women's education in the feudal state of Rajasthan.Established on 1st August,1944 with only 11 girls and 3 teachers in Madho Vilas under the patronage of the royal family especially Maharani Gayatri Devi,and called Intermediate College for Women. "
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:id="@+id/textView3"
+                    android:textSize="30dp"
+                    android:textColor="#4440b9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Maharani College,Ram Singh Road,Jaipur(Raj.)\nPin:302001"
+                    android:id="@+id/textView4"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph: 0141-2373628,2371918"
+                    android:id="@+id/textView5"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: maharanicollegejaipur@gmail.com"
+                    android:id="@+id/textView6"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:onClick="btn_email"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Website"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

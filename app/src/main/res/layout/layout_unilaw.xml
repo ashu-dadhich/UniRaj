@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/unilaw"
+                    android:layout_gravity="top" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:id="@+id/textView"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Five Year Law College (UFYLC) is one of the seven constituent colleges of University of Rajasthan, Jaipur. It was set up with the vision of equipping law aspirants with comprehensive analytical and practical legal knowledge in order to produce intellects who will strive for all round excellence. It offers an integrated five Year B.A. LL.B. (Hons.) program, which is divided into 10 semesters. It provides an unmatched environment of educational excellence in from of renowned faculty, vast resources, valuable exposure and ample opportunities for clinical training. Here at UFYLC we bridge the gap between what goes on in classroom and what lawyers do in the real word. This commitment of integrating theory with practice enables us to impart quality legal education which caters to the demands of legal profession.The college has its own separate, fully air-conditioned and Wi-Fi campus equipped with all necessary modern amenities like spacious 19 Classrooms, 4 Lecture Theaters, 2 Seminar Hall, Computer Lab, well stocked library and sports room."
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:id="@+id/textView3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Five Year  Law College\nUniversity of Rajasthan,Jaipur (Raj.)\nPin : 302004"
+                    android:id="@+id/textView4"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph: +91(194)2272096 "
+                    android:id="@+id/textView5"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="E-mail : info@universityfiveyearlawcollege.ac.in,\n\t \t\t\t\tdirectorfylc@gmail.com"
+                    android:id="@+id/textView6"
+                    android:onClick="btn_email"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Website"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4440b9"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

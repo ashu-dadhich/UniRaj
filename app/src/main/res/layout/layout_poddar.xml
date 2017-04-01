@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/podar"
+                    android:layout_gravity="top" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Us"
+                    android:id="@+id/textView"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:id="@+id/test"
+                    android:text="R. A. Podar Institute of Management, Faculty of Management Studies is a provider of management education in Jaipur city, in Rajasthan state, India. It was set up in 1974 as a constituent unit of the University of Rajasthan . The institute offers courses such as MBA( SM), MBA(Executive). The institute campus at J.L.N. Road is spread over an area of 20,000 sq meters.In the early sixties a need for management education was felt to keep up with the changing scenario of business in India. The University of Rajasthan, Jaipur, started the MBA program in 1968.The R.A. Podar Institute of Management was established in 1974 as a constituent unit of the university. It was the sixth B-School established in the country.With the setting up of the institute,an MBA flagship program was launched.Students get admission with PIM-MAT for the Services Management 4 semester full course programme and R-Mat (basis the rank) for the general 4 semester full-time programme."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:id="@+id/textView3"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#4440b9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <com.uncopt.android.widget.text.justify.JustifiedTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R A Podar Institute of Management\nNear Gandhi Circle,Jawahar Lal Nehru marg,Jaipur(Raj.)\nPin:302004"
+                    android:id="@+id/textView4"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ph: 0141-2711349, 2710339, 2700819"
+                    android:id="@+id/textView5"
+                    android:textAlignment="gravity"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: info@rapim.ac.in"
+                    android:id="@+id/textView6"
+                    android:textAlignment="gravity"
+                    android:onClick="btn_email"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Website"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4440b9"
+                    android:paddingBottom="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
